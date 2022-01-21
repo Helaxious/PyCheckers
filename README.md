@@ -1,5 +1,5 @@
 # PyCheckers!
-A classic board game implemented in `pygame`! Complete with every feature you need to play checkers! It also features saving/loading (though single-player mode isn't available yet)
+A classic board game implemented in `pygame`! Complete with every feature you need to play checkers! (including handsome sprites drawn by a mouse) It also features saving/loading (though single-player mode isn't available yet)
 
 ## Features
 
