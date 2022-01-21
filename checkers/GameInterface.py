@@ -64,7 +64,6 @@ class GameInterface:
         self.pointer_1.surf, self.pointer_2.surf = self.pointer_2.surf, self.pointer_1.surf
         self.pointer_1.surf = pygame.transform.rotate(self.pointer_1.surf, 180)
         self.pointer_2.surf = pygame.transform.rotate(self.pointer_2.surf, 180)
-        print(self.current_player)
         self.current_player = "player_1" if self.current_player == "player_2" else "player_2"
 
     def update(self):
